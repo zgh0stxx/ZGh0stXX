@@ -1,0 +1,149 @@
+/* 
+-
+*/
+
+/* CSS FOR ALL */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #14171e;
+}
+h2{
+    color: #2C3A47;
+    font-size: 2rem;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.footer{
+    border: 1px cornflowerblue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.white-text{
+    color: white;
+}
+
+.img-reseponsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+
+.clear-fix{
+    clear: both;
+    float: none;
+}
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+list-style-type: none;
+}
+
+.menu ul li{
+    display: inline-flex;
+    padding: 1%;
+    font-weight: bold;
+}
+
+a{
+color: #B33771;
+text-decoration: none;
+}
+a:hover{
+    color: #6D214F;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #B33771;
+    color:  aliceblue;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #6D214F;
+}
+
+
+/* CSS FOR SEARCH */
+
+.film-search{
+    background-image: url(../images/search2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.film-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS FOR TOP 3 */
+
+.top3{
+    padding: 4% 0;
+}
+
+.box-3{
+    border: 1px rgb(170, 167, 167);
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/* CSS FOR Explore */
+
+
+.explore{
+    background-color: #d2dae2;
+    padding: 4%;
+}
+
+.explore-box{
+    border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white
+}
+
+.explore-img{
+    width: 20%;
+}
